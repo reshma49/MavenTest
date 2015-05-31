@@ -12,6 +12,19 @@
   <artifactId>Marionette</artifactId>
   <packaging>jar</packaging>
 
+
+<build>
+    <plugins>
+        <plugin>
+            <groupId>org.codehaus.mojo</groupId>
+            <artifactId>exec-maven-plugin</artifactId>
+
+
+        </plugin>
+    </plugins>
+</build>
+
+
   <dependencies>
     <dependency>
       <groupId>com.experimental.labs.dev</groupId>
