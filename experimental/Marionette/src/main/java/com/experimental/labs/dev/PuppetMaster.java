@@ -8,6 +8,7 @@ public class PuppetMaster {
 
     private List <Puppet> toys = new ArrayList<Puppet>();
 
+    //Constructor
     public PuppetMaster () {
 	toys.add(new Karasu());
 	toys.add(new Kuroari());
