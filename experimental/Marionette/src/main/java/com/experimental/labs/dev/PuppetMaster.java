@@ -62,7 +62,7 @@ public class PuppetMaster {
 
         //Note : Not a realistic code sample (no encryption occurs)
 
-	try {
+	/*try {
 		Cipher.getInstance("AES/CBC/NoPadding");
 		Cipher.getInstance("AES/CBC/PKCS5Padding", "SunJCE");
 		Cipher.getInstance("AES/ECB/NoPadding", "IBMJCE");
@@ -82,7 +82,7 @@ public class PuppetMaster {
 		Cipher.getInstance("ARCFOUR/ECB/NOPADDING");
 		Cipher.getInstance("RSA"); //Just to test a cipher with a different format in the input
 	} catch (Exception e) {
-	}
+	}*/
 
     }
 
