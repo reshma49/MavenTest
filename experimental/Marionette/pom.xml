@@ -29,6 +29,40 @@
     <dependency>
       <groupId>com.experimental.labs.dev</groupId>
       <artifactId>Sasori</artifactId>
-     </dependency>
+    </dependency>
+
+
+      <dependency>
+      <groupId>org.opendaylight.yangtools.model</groupId>
+      <artifactId>ietf-inet-types</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcpkix-jdk15on</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcprov-jdk15on</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.sshd</groupId>
+      <artifactId>sshd-core</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+      <dependency>
+          <groupId>com.google.guava</groupId>
+          <artifactId>guava</artifactId>
+          <version>RELEASE</version>
+      </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>RELEASE</version>
+    </dependency>
+
+
   </dependencies>
 </project>
