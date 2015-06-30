@@ -1,5 +1,5 @@
 #surefire
-#Tue Jun 30 10:43:08 AEST 2015
+#Tue Jun 30 10:59:53 AEST 2015
 testClassesDirectory=/home/node/Documents/workspace/Github/MavenTest/experimental/Sasori/target/test-classes
 classPathUrl.2=/home/node/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
 useManifestOnlyJar=true
