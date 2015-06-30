@@ -1,0 +1,24 @@
+#surefire
+#Tue Jun 30 10:43:08 AEST 2015
+testClassesDirectory=/home/node/Documents/workspace/Github/MavenTest/experimental/Sasori/target/test-classes
+classPathUrl.2=/home/node/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+useManifestOnlyJar=true
+classPathUrl.1=/home/node/Documents/workspace/Github/MavenTest/experimental/Sasori/target/classes
+reportsDirectory=/home/node/Documents/workspace/Github/MavenTest/experimental/Sasori/target/surefire-reports
+classPathUrl.0=/home/node/Documents/workspace/Github/MavenTest/experimental/Sasori/target/test-classes
+providerConfiguration=org.apache.maven.surefire.junit.JUnit3Provider
+testSuiteDefinitionTestSourceDirectory=/home/node/Documents/workspace/Github/MavenTest/experimental/Sasori/src/test/java
+surefireClassPathUrl.1=/home/node/.m2/repository/org/apache/maven/surefire/surefire-api/2.12.4/surefire-api-2.12.4.jar
+surefireClassPathUrl.0=/home/node/.m2/repository/org/apache/maven/surefire/surefire-junit3/2.12.4/surefire-junit3-2.12.4.jar
+runOrder=filesystem
+useSystemClassLoader=true
+excludes0=**/*$*
+isTrimStackTrace=true
+tc.0=com.experimental.labs.dev.AppTest
+enableAssertions=true
+includes2=**/*TestCase.java
+failIfNoTests=false
+includes1=**/*Test.java
+runStatisticsFile=/home/node/Documents/workspace/Github/MavenTest/experimental/Sasori/.surefire-7346EEE542EA53EAC09BA74A8E5307C901465526
+includes0=**/Test*.java
+childDelegation=false

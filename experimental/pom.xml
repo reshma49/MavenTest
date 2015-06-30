@@ -68,7 +68,7 @@
     </plugins>
 
     <pluginManagement>
-        <plugins>
+        <!--<plugins>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
@@ -81,15 +81,15 @@
                      </goals>
                  </execution>
                 </executions>
-		<configuration>
+		      <configuration>
 		    <mainClass>com.experimental.labs.dev.PuppetMaster</mainClass>
-		    <!--<arguments>
+		    <arguments>
 		      <argument>foo</argument>
 		      <argument>bar</argument>
-		    </arguments>-->
+		    </arguments>
 		  </configuration>
             </plugin>
-        </plugins>
+        </plugins>-->
     </pluginManagement>
 
 

@@ -73,7 +73,7 @@
     </scanInfo>
     <projectInfo>
         <name>Marionette</name>
-        <reportDate>2015-06-30T10:06:35.677+1000</reportDate>
+        <reportDate>2015-06-30T10:48:00.513+1000</reportDate>
         <credits>This report contains data retrieved from the National Vulnerability Database: http://nvd.nist.gov</credits>
     </projectInfo>
     <dependencies>
@@ -725,8 +725,8 @@
         <dependency>
             <fileName>Sasori-1.0-SNAPSHOT.jar</fileName>
             <filePath>/home/node/.m2/repository/com/experimental/labs/dev/Sasori/1.0-SNAPSHOT/Sasori-1.0-SNAPSHOT.jar</filePath>
-            <md5>D82A94C90D7D4DEBD0E8965753A06EB4</md5>
-            <sha1>EA1980477DFDE5EA3BC599D8E5167FBE8F79908E</sha1>
+            <md5>BD3D8721F3CF483E6FA9C4EE3C2BD0D5</md5>
+            <sha1>A30179AF3B2BF59F8DC8DF85A2CE53E16A97CDF2</sha1>
             <evidenceCollected>
                 <evidence>
                     <source>file</source>
