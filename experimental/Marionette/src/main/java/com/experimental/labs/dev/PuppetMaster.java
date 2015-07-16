@@ -48,10 +48,10 @@ public class PuppetMaster {
 
     @SuppressWarnings("all")
     public static void main(String[] args) throws Exception {
-        //String good = goodHash("12345");
-        //String bad = badHash("12345");
+        String good = goodHash("12345");
+        String bad = badHash("12345");
 
-        //System.out.println(String.format("%s (len=%d) != %s (len=%d)", good, good.length(), bad, bad.length()));
+        System.out.println(String.format("%s (len=%d) != %s (len=%d)", good, good.length(), bad, bad.length()));
 
         //For the hash ABC the 5th byte become weaker because of the trailing 0 being trim (06 -> 6)
         //Actual      : ..0679.. => ..679..
@@ -63,7 +63,7 @@ public class PuppetMaster {
         //Note : Not a realistic code sample (no encryption occurs)
 
 	
-		Cipher.getInstance("AES/CBC/NoPadding");
+		//Cipher.getInstance("AES/CBC/NoPadding");
 		Cipher.getInstance("AES/CBC/PKCS5Padding", "SunJCE");
 		Cipher.getInstance("AES/ECB/NoPadding", "IBMJCE");
 		Cipher.getInstance("AES/ECB/PKCS5Padding", new DummyProvider());
