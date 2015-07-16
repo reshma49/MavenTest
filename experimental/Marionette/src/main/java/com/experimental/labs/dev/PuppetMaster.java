@@ -49,7 +49,7 @@ public class PuppetMaster {
     @SuppressWarnings("all")
     public static void main(String[] args) throws Exception {
         String good = goodHash("12345");
-        String bad = badHash("12345");
+//        String bad = badHash("12345");
 
         System.out.println(String.format("%s (len=%d) != %s (len=%d)", good, good.length(), bad, bad.length()));
 
@@ -63,7 +63,7 @@ public class PuppetMaster {
         //Note : Not a realistic code sample (no encryption occurs)
 
 	
-		//Cipher.getInstance("AES/CBC/NoPadding");
+		Cipher.getInstance("AES/CBC/NoPadding");
 		Cipher.getInstance("AES/CBC/PKCS5Padding", "SunJCE");
 		Cipher.getInstance("AES/ECB/NoPadding", "IBMJCE");
 		Cipher.getInstance("AES/ECB/PKCS5Padding", new DummyProvider());
@@ -100,7 +100,7 @@ public class PuppetMaster {
         return stringBuilder.toString();
     }
 
-    public static String badHash(String password) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+/*    public static String badHash(String password) throws NoSuchAlgorithmException, UnsupportedEncodingException {
 
         MessageDigest md = MessageDigest.getInstance("SHA-1");
         byte[] resultBytes = md.digest(password.getBytes("UTF-8"));
@@ -111,7 +111,7 @@ public class PuppetMaster {
         }
 
         return stringBuilder.toString();
-    }
+    }*/
 
 
 
