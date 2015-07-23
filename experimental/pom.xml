@@ -81,14 +81,14 @@
           </configuration>
       </plugin>
 
-      <!--<plugin>
+      <plugin>
         <groupId>org.owasp</groupId>
         <artifactId>dependency-check-maven</artifactId>
         <version>1.2.1</version>
         <configuration>
           <failBuildOnCVSS>11</failBuildOnCVSS>
           <format>ALL</format>
-          <suppressionFile>${session.executionRootDirectory}/ignore.xml</suppressionFile>
+          <!--<suppressionFile>${session.executionRootDirectory}/ignore.xml</suppressionFile>-->
         </configuration>
         <executions>
           <execution>
@@ -97,7 +97,7 @@
             </goals>
           </execution>
         </executions>
-      </plugin>-->
+      </plugin>
   </plugins>
 </reporting>
 
