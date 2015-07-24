@@ -49,9 +49,9 @@ public class PuppetMaster {
     @SuppressWarnings("all")
     public static void main(String[] args) throws Exception {
         String good = goodHash("12345");
-        String bad = badHash("12345");
+//        String bad = badHash("12345");
 
-        System.out.println(String.format("%s (len=%d) != %s (len=%d)", good, good.length(), bad, bad.length()));
+  //      System.out.println(String.format("%s (len=%d) != %s (len=%d)", good, good.length(), bad, bad.length()));
 
         //For the hash ABC the 5th byte become weaker because of the trailing 0 being trim (06 -> 6)
         //Actual      : ..0679.. => ..679..
@@ -100,7 +100,7 @@ public class PuppetMaster {
         return stringBuilder.toString();
     }
 
-    public static String badHash(String password) throws NoSuchAlgorithmException, UnsupportedEncodingException {
+/*    public static String badHash(String password) throws NoSuchAlgorithmException, UnsupportedEncodingException {
 
         MessageDigest md = MessageDigest.getInstance("SHA-1");
         byte[] resultBytes = md.digest(password.getBytes("UTF-8"));
@@ -111,7 +111,7 @@ public class PuppetMaster {
         }
 
         return stringBuilder.toString();
-    }
+    }*/
 
 
 
